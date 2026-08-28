@@ -1,0 +1,12 @@
+Metadata-Version: 2.4
+Name: uzrag
+Version: 0.1.0
+Summary: Retrieval over Uzbek school textbooks
+Requires-Python: >=3.11
+Requires-Dist: pdf2image
+Requires-Dist: pytesseract
+Requires-Dist: pillow
+Requires-Dist: jiwer
+Requires-Dist: uznorm @ git+https://github.com/Ikbola/uznorm.git
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"

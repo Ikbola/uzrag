@@ -1,0 +1,8 @@
+pdf2image
+pytesseract
+pillow
+jiwer
+uznorm @ git+https://github.com/Ikbola/uznorm.git
+
+[dev]
+pytest

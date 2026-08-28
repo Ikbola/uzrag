@@ -1,0 +1,25 @@
+[project]
+name = "uzrag"
+version = "0.1.0"
+description = "Retrieval over Uzbek school textbooks"
+requires-python = ">=3.11"
+dependencies = [
+    "pdf2image",
+    "pytesseract",
+    "pillow",
+    "jiwer",
+    "uznorm @ git+https://github.com/Ikbola/uznorm.git",
+]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
