@@ -1,8 +1,8 @@
 """OCR every page of every textbook and write cleaned text with metadata.
 
 Usage:
-    python scripts/ocr_corpus.py                 # all books
-    python scripts/ocr_corpus.py --limit 5       # first 5 pages, for testing
+    python scripts/ocr_corpus.py                 
+    python scripts/ocr_corpus.py --limit 5       
 """
 
 import argparse

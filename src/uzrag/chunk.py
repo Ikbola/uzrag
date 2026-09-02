@@ -90,23 +90,22 @@ def chunk_page(text: str, book: str, page: int,
 
         if len(para) > MAX:
             if buffer:
-                chunks.append(Chunk(buffer, book, page, section, 0))
+                chunks.append(Chunk(buffer, book, page, section, kind=kind))
                 buffer = ""
             for piece in split_long(para):
-                chunks.append(Chunk(piece, book, page, section, 0))
+                chunks.append(Chunk(piece, book, page, section, kind=kind))
             continue
 
         if len(buffer) + len(para) + 1 <= TARGET or len(buffer) < MIN:
             buffer = f"{buffer} {para}".strip()
         else:
-            chunks.append(Chunk(buffer, book, page, section, 0))
+            chunks.append(Chunk(buffer, book, page, section, kind=kind))
             buffer = para
 
     if buffer:
         if len(buffer) < MIN and chunks and len(chunks[-1].text) + len(buffer) <= MAX:
             chunks[-1].text += " " + buffer
         elif len(buffer) >= MIN:
-            chunks.append(Chunk(buffer, book, page, section, kind, 0))
-    
+            chunks.append(Chunk(buffer, book, page, section, kind=kind))
 
     return chunks, section
