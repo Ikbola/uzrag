@@ -1,0 +1,233 @@
+{
+  "n_questions": 40,
+  "recall@1": 0.075,
+  "recall@3": 0.2,
+  "recall@5": 0.3,
+  "recall@10": 0.375,
+  "failures_at_5": [
+    {
+      "question": "Tasavvufda tariqat nima?",
+      "expected_chunk": 496,
+      "expected_book": "Adabiyot. 10-sinf (2022, Z.Mirzayeva, K.",
+      "expected_page": 150,
+      "top_result_chunk": 417,
+      "top_result_score": 0.596
+    },
+    {
+      "question": "\"Iliada\" va \"Odisseya\" dostonlari kimga tegishli?",
+      "expected_chunk": 110,
+      "expected_book": "Adabiyot. 10-sinf (2022, Z.Mirzayeva, K.",
+      "expected_page": 33,
+      "top_result_chunk": 192,
+      "top_result_score": 0.644
+    },
+    {
+      "question": "Riboza va dezoksiriboza qaysi birikmalar tarkibiga kiradi?",
+      "expected_chunk": 1086,
+      "expected_book": "Biologiya. 10-sinf (2017, J.Tolipova, M.",
+      "expected_page": 20,
+      "top_result_chunk": 1173,
+      "top_result_score": 0.595
+    },
+    {
+      "question": "\"Robinzon Kruzo\" romanining muallifi kim?",
+      "expected_chunk": 620,
+      "expected_book": "Adabiyot. 10-sinf (2022, Z.Mirzayeva, K.",
+      "expected_page": 193,
+      "top_result_chunk": 880,
+      "top_result_score": 0.542
+    },
+    {
+      "question": "Turkiston Muxtoriyatini kim tor-mor qilgan?",
+      "expected_chunk": 1906,
+      "expected_book": "Oʻzbekiston tarixi. 10-sinf (2017, Q.Raj",
+      "expected_page": 17,
+      "top_result_chunk": 20,
+      "top_result_score": 0.628
+    },
+    {
+      "question": "Don Kixot nimaga berilib ketib, ov va xoʻjalik ishlarini yigʻishtirib qoʻygan?",
+      "expected_chunk": 413,
+      "expected_book": "Adabiyot. 10-sinf (2022, Z.Mirzayeva, K.",
+      "expected_page": 126,
+      "top_result_chunk": 440,
+      "top_result_score": 0.843
+    },
+    {
+      "question": "Gen muhandisligi qanday muammoni hal etishga qaratilgan?",
+      "expected_chunk": 1033,
+      "expected_book": "Biologiya. 10-sinf (2017, J.Tolipova, M.",
+      "expected_page": 6,
+      "top_result_chunk": 250,
+      "top_result_score": 0.757
+    },
+    {
+      "question": "XX asr 80-yillari Oʻzbekiston qishloq xoʻjaligida qancha pestitsid ishlatilgan?",
+      "expected_chunk": 2275,
+      "expected_book": "Oʻzbekiston tarixi. 10-sinf (2017, Q.Raj",
+      "expected_page": 124,
+      "top_result_chunk": 2212,
+      "top_result_score": 0.757
+    },
+    {
+      "question": "Turkiston Muxtoriyati hukumati qachon va qayerda tashkil topgan?",
+      "expected_chunk": 1896,
+      "expected_book": "Oʻzbekiston tarixi. 10-sinf (2017, Q.Raj",
+      "expected_page": 14,
+      "top_result_chunk": 1865,
+      "top_result_score": 0.683
+    },
+    {
+      "question": "Kurtaklanib koʻpayish qaysi organizmlarda kuzatiladi?",
+      "expected_chunk": 1236,
+      "expected_book": "Biologiya. 10-sinf (2017, J.Tolipova, M.",
+      "expected_page": 68,
+      "top_result_chunk": 1217,
+      "top_result_score": 0.774
+    },
+    {
+      "question": "\"Goʻroʻgʻli\" turkum dostonlarini qanday guruhlarga boʻlish mumkin?",
+      "expected_chunk": 29,
+      "expected_book": "Adabiyot. 10-sinf (2022, Z.Mirzayeva, K.",
+      "expected_page": 13,
+      "top_result_chunk": 30,
+      "top_result_score": 0.857
+    },
+    {
+      "question": "Jadid adabiyotining asosiy gʻoyalari qanday boʻlgan?",
+      "expected_chunk": 709,
+      "expected_book": "Adabiyot. 10-sinf (2022, Z.Mirzayeva, K.",
+      "expected_page": 227,
+      "top_result_chunk": 577,
+      "top_result_score": 0.878
+    },
+    {
+      "question": "Bolsheviklar Qoʻqonga qanday harbiy kuchlar yuborgan?",
+      "expected_chunk": 1909,
+      "expected_book": "Oʻzbekiston tarixi. 10-sinf (2017, Q.Raj",
+      "expected_page": 18,
+      "top_result_chunk": 1967,
+      "top_result_score": 0.829
+    },
+    {
+      "question": "Biokimyoviy mezon boʻyicha turlarning asosiy farqi nimada?",
+      "expected_chunk": 1527,
+      "expected_book": "Biologiya. 10-sinf (2017, J.Tolipova, M.",
+      "expected_page": 149,
+      "top_result_chunk": 1739,
+      "top_result_score": 0.703
+    },
+    {
+      "question": "\"Tur\" atamasini sistematik birlik sifatida fanga kim kiritgan?",
+      "expected_chunk": 1522,
+      "expected_book": "Biologiya. 10-sinf (2017, J.Tolipova, M.",
+      "expected_page": 148,
+      "top_result_chunk": 20,
+      "top_result_score": 0.687
+    },
+    {
+      "question": "Turlararo yashash uchun kurashga misol keltiring.",
+      "expected_chunk": 1629,
+      "expected_book": "Biologiya. 10-sinf (2017, J.Tolipova, M.",
+      "expected_page": 177,
+      "top_result_chunk": 1384,
+      "top_result_score": 0.519
+    },
+    {
+      "question": "Irsiy kasalliklarni oʻrganish qaysi fanlar bilan bogʻliq?",
+      "expected_chunk": 1034,
+      "expected_book": "Biologiya. 10-sinf (2017, J.Tolipova, M.",
+      "expected_page": 6,
+      "top_result_chunk": 1406,
+      "top_result_score": 0.787
+    },
+    {
+      "question": "Darvin moslanishlarning kelib chiqishini qanday tushuntirgan?",
+      "expected_chunk": 1670,
+      "expected_book": "Biologiya. 10-sinf (2017, J.Tolipova, M.",
+      "expected_page": 189,
+      "top_result_chunk": 1564,
+      "top_result_score": 0.774
+    },
+    {
+      "question": "Sunʼiy tanlashda insonlar qanday maqsadlarni koʻzlaydi?",
+      "expected_chunk": 1600,
+      "expected_book": "Biologiya. 10-sinf (2017, J.Tolipova, M.",
+      "expected_page": 167,
+      "top_result_chunk": 583,
+      "top_result_score": 0.82
+    },
+    {
+      "question": "Poliploid turlar qayerda koʻp tarqalgan?",
+      "expected_chunk": 1616,
+      "expected_book": "Biologiya. 10-sinf (2017, J.Tolipova, M.",
+      "expected_page": 172,
+      "top_result_chunk": 1093,
+      "top_result_score": 0.658
+    },
+    {
+      "question": "Xlorofill tarkibida qaysi element bor?",
+      "expected_chunk": 1066,
+      "expected_book": "Biologiya. 10-sinf (2017, J.Tolipova, M.",
+      "expected_page": 15,
+      "top_result_chunk": 1062,
+      "top_result_score": 0.651
+    },
+    {
+      "question": "Gemoglobin tarkibida qaysi element mavjud?",
+      "expected_chunk": 1066,
+      "expected_book": "Biologiya. 10-sinf (2017, J.Tolipova, M.",
+      "expected_page": 15,
+      "top_result_chunk": 1707,
+      "top_result_score": 0.68
+    },
+    {
+      "question": "1931-yilda Oʻzbekistonda quloqlarga qarshi qanday choralar koʻrilgan?",
+      "expected_chunk": 2073,
+      "expected_book": "Oʻzbekiston tarixi. 10-sinf (2017, Q.Raj",
+      "expected_page": 65,
+      "top_result_chunk": 2219,
+      "top_result_score": 0.802
+    },
+    {
+      "question": "\"Paxta ishi\" tergov guruhiga kimlar rahbarlik qilgan?",
+      "expected_chunk": 2289,
+      "expected_book": "Oʻzbekiston tarixi. 10-sinf (2017, Q.Raj",
+      "expected_page": 129,
+      "top_result_chunk": 1980,
+      "top_result_score": 0.618
+    },
+    {
+      "question": "Uygʻonish davrining muhim xususiyatlaridan biri nima boʻlgan?",
+      "expected_chunk": 402,
+      "expected_book": "Adabiyot. 10-sinf (2022, Z.Mirzayeva, K.",
+      "expected_page": 121,
+      "top_result_chunk": 388,
+      "top_result_score": 0.813
+    },
+    {
+      "question": "Jan Jak Russo qaysi asarida tarbiya masalalarini yoritgan?",
+      "expected_chunk": 620,
+      "expected_book": "Adabiyot. 10-sinf (2022, Z.Mirzayeva, K.",
+      "expected_page": 193,
+      "top_result_chunk": 641,
+      "top_result_score": 0.683
+    },
+    {
+      "question": "Interfazada S davri qancha davom etadi?",
+      "expected_chunk": 1186,
+      "expected_book": "Biologiya. 10-sinf (2017, J.Tolipova, M.",
+      "expected_page": 53,
+      "top_result_chunk": 1202,
+      "top_result_score": 0.684
+    },
+    {
+      "question": "Filoembriogenez nazariyasini kim ishlab chiqqan?",
+      "expected_chunk": 1716,
+      "expected_book": "Biologiya. 10-sinf (2017, J.Tolipova, M.",
+      "expected_page": 203,
+      "top_result_chunk": 1575,
+      "top_result_score": 0.692
+    }
+  ]
+}

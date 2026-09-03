@@ -36,6 +36,7 @@ pytesseract==0.3.13
 pytest==9.1.1
 python-dotenv==1.2.3
 PyYAML==6.0.3
+rank-bm25==0.2.2
 RapidFuzz==3.14.5
 regex==2026.7.19
 rich==15.0.0
@@ -58,6 +59,6 @@ typing_extensions==4.16.0
 uvicorn==0.52.4
 uvloop==0.22.1
 uznorm @ git+https://github.com/Ikbola/uznorm.git@b9144692b92394b837ef3d26ee96c35925f126ed
--e git+https://github.com/Ikbola/uzrag.git@ebd8ab79f6161d3bafe876bc45c18625266736f5#egg=uzrag
+-e git+https://github.com/Ikbola/uzrag.git@cbee026ab91323212f3462be46d0355fe01f181f#egg=uzrag
 watchfiles==1.2.0
 websockets==17.1

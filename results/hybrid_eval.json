@@ -1,0 +1,93 @@
+{
+  "n_questions": 40,
+  "recall@1": 0.325,
+  "recall@3": 0.55,
+  "recall@5": 0.7,
+  "recall@10": 0.85,
+  "failures_at_5": [
+    {
+      "question": "Tasavvufda tariqat nima?",
+      "expected": 496,
+      "got": 417,
+      "sem_rank": 0,
+      "bm25_rank": 35
+    },
+    {
+      "question": "Turkiston Muxtoriyatini kim tor-mor qilgan?",
+      "expected": 1906,
+      "got": 1876,
+      "sem_rank": 32,
+      "bm25_rank": 6
+    },
+    {
+      "question": "Kurtaklanib koʻpayish qaysi organizmlarda kuzatiladi?",
+      "expected": 1236,
+      "got": 1230,
+      "sem_rank": 6,
+      "bm25_rank": 4
+    },
+    {
+      "question": "\"Goʻroʻgʻli\" turkum dostonlarini qanday guruhlarga boʻlish mumkin?",
+      "expected": 29,
+      "got": 229,
+      "sem_rank": 12,
+      "bm25_rank": 2
+    },
+    {
+      "question": "Jadid adabiyotining asosiy gʻoyalari qanday boʻlgan?",
+      "expected": 709,
+      "got": 277,
+      "sem_rank": 40,
+      "bm25_rank": 7
+    },
+    {
+      "question": "Bolsheviklar Qoʻqonga qanday harbiy kuchlar yuborgan?",
+      "expected": 1909,
+      "got": 1887,
+      "sem_rank": 8,
+      "bm25_rank": 1
+    },
+    {
+      "question": "Biokimyoviy mezon boʻyicha turlarning asosiy farqi nimada?",
+      "expected": 1527,
+      "got": 1691,
+      "sem_rank": 3,
+      "bm25_rank": 7
+    },
+    {
+      "question": "Turlararo yashash uchun kurashga misol keltiring.",
+      "expected": 1629,
+      "got": 1688,
+      "sem_rank": 34,
+      "bm25_rank": 34
+    },
+    {
+      "question": "Darvin moslanishlarning kelib chiqishini qanday tushuntirgan?",
+      "expected": 1670,
+      "got": 1608,
+      "sem_rank": 27,
+      "bm25_rank": 3
+    },
+    {
+      "question": "Sunʼiy tanlashda insonlar qanday maqsadlarni koʻzlaydi?",
+      "expected": 1600,
+      "got": 1605,
+      "sem_rank": 14,
+      "bm25_rank": 15
+    },
+    {
+      "question": "Xlorofill tarkibida qaysi element bor?",
+      "expected": 1066,
+      "got": 1062,
+      "sem_rank": 0,
+      "bm25_rank": 0
+    },
+    {
+      "question": "Interfazada S davri qancha davom etadi?",
+      "expected": 1186,
+      "got": 1202,
+      "sem_rank": 0,
+      "bm25_rank": 29
+    }
+  ]
+}
