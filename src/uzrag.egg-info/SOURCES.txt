@@ -1,8 +1,13 @@
 pyproject.toml
 src/uzrag/__init__.py
+src/uzrag/api.py
+src/uzrag/chunk.py
 src/uzrag/clean.py
+src/uzrag/hybrid.py
+src/uzrag/index.py
 src/uzrag.egg-info/PKG-INFO
 src/uzrag.egg-info/SOURCES.txt
 src/uzrag.egg-info/dependency_links.txt
 src/uzrag.egg-info/requires.txt
 src/uzrag.egg-info/top_level.txt
+tests/test_search_api.py
